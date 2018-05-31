@@ -1,0 +1,28 @@
+﻿  glad.c
+  WindowManager.cpp
+  Program.cpp
+  MatrixStack.cpp
+  main.cpp
+c:\users\samma\desktop\winter2018\cpe471\labs\lab04\src\main.cpp(176): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  GLSL.cpp
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "public: virtual void __thiscall Application::keyCallback(struct GLFWwindow *,int,int,int,int)" (?keyCallback@Application@@UAEXPAUGLFWwindow@@HHHH@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function "public: void __thiscall Application::render(void)" (?render@Application@@QAEXXZ)
+main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetCursorPos referenced in function "public: virtual void __thiscall Application::mouseCallback(struct GLFWwindow *,int,int,int)" (?mouseCallback@Application@@UAEXPAUGLFWwindow@@HHH@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function "public: void __thiscall Application::render(void)" (?render@Application@@QAEXXZ)
+main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+WindowManager.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "public: bool __thiscall WindowManager::init(int,int)" (?init@WindowManager@@QAE_NHH@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function "public: bool __thiscall WindowManager::init(int,int)" (?init@WindowManager@@QAE_NHH@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol _glfwSetErrorCallback referenced in function "public: bool __thiscall WindowManager::init(int,int)" (?init@WindowManager@@QAE_NHH@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "public: bool __thiscall WindowManager::init(int,int)" (?init@WindowManager@@QAE_NHH@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "public: bool __thiscall WindowManager::init(int,int)" (?init@WindowManager@@QAE_NHH@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function "public: void __thiscall WindowManager::shutdown(void)" (?shutdown@WindowManager@@QAEXXZ)
+WindowManager.obj : error LNK2019: unresolved external symbol _glfwSetFramebufferSizeCallback referenced in function "public: bool __thiscall WindowManager::init(int,int)" (?init@WindowManager@@QAE_NHH@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function "public: bool __thiscall WindowManager::init(int,int)" (?init@WindowManager@@QAE_NHH@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol _glfwSetMouseButtonCallback referenced in function "public: bool __thiscall WindowManager::init(int,int)" (?init@WindowManager@@QAE_NHH@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "public: bool __thiscall WindowManager::init(int,int)" (?init@WindowManager@@QAE_NHH@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function "public: bool __thiscall WindowManager::init(int,int)" (?init@WindowManager@@QAE_NHH@Z)
+C:\Users\samma\OneDrive\Documents\Visual Studio 2017\SDKs\glfw-3.2.1.bin.WIN64\lib-vc2015\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\samma\Desktop\Winter2018\CPE471\Labs\lab04\Debug\lab03.exe : fatal error LNK1120: 18 unresolved externals
